@@ -1,0 +1,25 @@
+{
+  "name": "my_project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "bootstrap": "^5.2.3",
+    "copy-to-clipboard": "^3.3.3",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.1.1",
+    "next": "13.1.1",
+    "next-base64": "^1.1.0",
+    "openai": "^3.1.0",
+    "react": "18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "18.2.0",
+    "sanitize-html": "^2.8.1"
+  }
+}
