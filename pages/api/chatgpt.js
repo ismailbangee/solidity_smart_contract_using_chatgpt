@@ -8,7 +8,7 @@ const openai = new OpenAIApi(configuration);
 
 var basePromptPrefix = `Create a solidity smart contract for `;
 var selectOpenZeppelin = "";
-var versionUser = " use solidity version 0.8.17";
+var versionUser = " use solidity version 0.8.17 and add licence line at the top";
 const chatGPT = async (req, res) => {
 
     if(req.body.checked == true) {
